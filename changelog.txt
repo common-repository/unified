@@ -1,0 +1,17 @@
+= 1.2.0 =
+ * Bugfix: Fix email not being sent when email queue is not enabled together with email log
+ * Bugfix: Fix permission problems when created the upload dirs
+
+= 1.1.0 =
+ * Feature: Add email queue, to be able to queue up emails and not have the system wait for it to send
+ * Feature: Add email log functionality, which adds page that shows emails sent from the site, so you can view it again or re-send it
+ * Feature: Add email test functionality, so email sending can be tested on configuration page
+ * Improvement: Improve configuration page, make it easier to navigate
+
+= 1.0.0 =
+ * First official release
+ * Such cool, much wow
+ * Feature: Page caching with PHP Must-Use plugin
+ * Feature: Custom SMTP support
+ * Feature: Clean up WordPress output, by disabling all kinds of not-needed output
+ * Feature: Add security headers, such as "X-Frame-Options", "X-Content-Type-Options", "Referrer-Policy", "Strict-Transport-Security (HSTS)"

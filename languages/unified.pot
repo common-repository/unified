@@ -1,0 +1,537 @@
+# Copyright (C) 2024 Daev.tech
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Unified 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-15T21:40:25+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: unified\n"
+
+#. Plugin Name of the plugin
+msgid "Unified"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://daev.tech/unified"
+msgstr ""
+
+#. Description of the plugin
+msgid "SMTP setup, page cache, WordPress clean up, security http headers, focused on high performance, no bloat and low memory usage."
+msgstr ""
+
+#. Author of the plugin
+msgid "Daev.tech"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://daev.tech"
+msgstr ""
+
+msgid "Test email sent from %s by Unified plugin"
+msgstr ""
+
+msgid "Test content for email"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "Email log"
+msgstr ""
+
+msgid "See the emails sent from this site."
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Recipient(s)"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Attachments"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "Email could not be found"
+msgstr ""
+
+msgid "Security token is no longer valid - Go back and try again."
+msgstr ""
+
+msgid "You do not have access to this page"
+msgstr ""
+
+msgid "Setup"
+msgstr ""
+
+msgid "Licensing"
+msgstr ""
+
+msgid "Test email could not be send right now - Make sure configuration of SMTP is correct."
+msgstr ""
+
+msgid "Authentication was not correct, so no changes was made - Refresh page and try again"
+msgstr ""
+
+msgid "You do not have access to do this."
+msgstr ""
+
+msgid "Email SMTP host name is not valid or could not look up the DNS IP address for it"
+msgstr ""
+
+msgid "Email SMTP port needs to a number between 1 and 65535"
+msgstr ""
+
+msgid "Email SMTP secure can only be tls, ssl or empty"
+msgstr ""
+
+msgid "This site is using a Unified PRO version that can not be validated using the current license key. Update license key on this site to a valid one and try again. This can be done in menu Unified > Licensing."
+msgstr ""
+
+#. translators: %s WordPress Must-use plugin dir
+msgid "MU plugin dir %s could not be created - It is probably a permission issue"
+msgstr ""
+
+#. translators: %s WordPress Must-use plugin dir
+msgid "MU plugin dir %s is not writable - It is probably a permission issue"
+msgstr ""
+
+#. translators: %s WordPress Must-use plugin dir
+msgid "MU plugin %s could not be copied to MU plugin dir - It is probably a permission issue"
+msgstr ""
+
+#. translators: %s Plugin path
+msgid "MU plugin %s could not be deleted - It is probably a permission issue"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "License is not valid - Check licensing page - Unified will acts as FREE version until PRO version is verified"
+msgstr ""
+
+msgid "Unified configuration"
+msgstr ""
+
+msgid "Global"
+msgstr ""
+
+msgid "Site Speed"
+msgstr ""
+
+msgid "Page Caching"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "SMTP Setup"
+msgstr ""
+
+msgid "Email Queue"
+msgstr ""
+
+msgid "Email Log"
+msgstr ""
+
+msgid "Email Test"
+msgstr ""
+
+msgid "Clean"
+msgstr ""
+
+msgid "WordPress"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "HTTP Headers"
+msgstr ""
+
+msgid "Configuration could be saved right now due to connection errors - Try again"
+msgstr ""
+
+msgid "Email test could not be sent right now - Try again"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Disable all"
+msgstr ""
+
+msgid "Enable recommended"
+msgstr ""
+
+msgid "Global enable features"
+msgstr ""
+
+msgid "Enable or disable all the features in Unified in one option, without changing all the configurations"
+msgstr ""
+
+msgid "Enabled page caching (with PHP)"
+msgstr ""
+
+msgid "Enable or disable page caching feature"
+msgstr ""
+
+msgid "Configure a custom SMTP to use"
+msgstr ""
+
+msgid "Enable custom SMTP for emails"
+msgstr ""
+
+msgid "Enable or disable the usage of custom SMTP"
+msgstr ""
+
+msgid "SMTP host"
+msgstr ""
+
+msgid "Hostname of SMTP server - Example: mail.google.com"
+msgstr ""
+
+msgid "SMTP port"
+msgstr ""
+
+msgid "Port number of SMTP server - Example: 445"
+msgstr ""
+
+msgid "SMTP security scheme"
+msgstr ""
+
+msgid "Unsecure"
+msgstr ""
+
+msgid "TLS"
+msgstr ""
+
+msgid "SSL"
+msgstr ""
+
+msgid "Encryption used by SMTP - Normally you can find this in the documentation of SMTP. TLS is preferred, then SSL. Only use unsecure if others are not available."
+msgstr ""
+
+msgid "Does SMTP require username/password?"
+msgstr ""
+
+msgid "If your SMTP requires authentication, you should have gotten a username and password"
+msgstr ""
+
+msgid "SMTP username"
+msgstr ""
+
+msgid "SMTP password"
+msgstr ""
+
+msgid "Configure which name/email the emails are sent from"
+msgstr ""
+
+msgid "From name"
+msgstr ""
+
+msgid "The name that the email is sent from, which will appear in the receivers inbox"
+msgstr ""
+
+msgid "From email"
+msgstr ""
+
+msgid "The email address that the email will seem to be sent from"
+msgstr ""
+
+msgid "Enable email queue"
+msgstr ""
+
+msgid "Queue emails when sending emails, instead of letting the user wait for it to be sent. Also prevent failures in case email cant be sent right away."
+msgstr ""
+
+msgid "Enable email log in menu"
+msgstr ""
+
+msgid "Show email log in menu, so sent emails can be inspected."
+msgstr ""
+
+msgid "Email Testing"
+msgstr ""
+
+msgid "Send test email to this email"
+msgstr ""
+
+msgid "Try to send test email with the current settings, to make sure everything works."
+msgstr ""
+
+msgid "Send test email"
+msgstr ""
+
+msgid "Test email was sent with success"
+msgstr ""
+
+msgid "Clean WordPress"
+msgstr ""
+
+msgid "Clean WordPress HTML output"
+msgstr ""
+
+msgid "Clean the output of WordPress"
+msgstr ""
+
+msgid "Make sure WordPress doesnt output all kinds of useless data in the HTML"
+msgstr ""
+
+msgid "Disable WordPress Features"
+msgstr ""
+
+msgid "Disable emoji JS & styles"
+msgstr ""
+
+msgid "Disable the output of Emoji related JS and related"
+msgstr ""
+
+msgid "Disable RSS/ATOM feeds for all pages"
+msgstr ""
+
+msgid "Disables the auto-generated RSS/ATOM feeds on all pages"
+msgstr ""
+
+msgid "Disable author pages"
+msgstr ""
+
+msgid "Disables the auto-generated author pages"
+msgstr ""
+
+msgid "Disable admin bar on frontend"
+msgstr ""
+
+msgid "Disables the admin bar in the top when browsing the frontend of site"
+msgstr ""
+
+msgid "Disable default REST routes"
+msgstr ""
+
+msgid "Dangerous option - Make sure to read the description"
+msgstr ""
+
+msgid "Disables the default REST routes loaded in WP. Be careful with this, as themes and plugins might depend on them."
+msgstr ""
+
+msgid "Security Headers"
+msgstr ""
+
+msgid "Disable security headers"
+msgstr ""
+
+msgid "Remove X-Pingback header"
+msgstr ""
+
+msgid "Disable the header X-Pingback which WordPress outputs, but in almost all cases is not needed"
+msgstr ""
+
+msgid "Remove X-Powered-By header"
+msgstr ""
+
+msgid "Disable the header X-Powered-By which PHP outputs, but is unwanted information disclosure"
+msgstr ""
+
+msgid "Enable security headers"
+msgstr ""
+
+msgid "Enable X-Frame-Options"
+msgstr ""
+
+msgid "Enable header, so your site is not allowed to loaded in a iframe on another site"
+msgstr ""
+
+msgid "Enable X-Content-Type-Options"
+msgstr ""
+
+msgid "Enable header, preventing the browser from trying to guess the metadata on the content served and instead trust the server"
+msgstr ""
+
+msgid "Enable Referrer-Policy"
+msgstr ""
+
+msgid "Enable header, which limits the amount of data passed on when navigating away from the site"
+msgstr ""
+
+msgid "Enable Strict-Transport-Security (HSTS)"
+msgstr ""
+
+msgid "Enable header, which tells the browser to only load the site over HTTPS (encrypted), also in the future. Only use this if your site is going to be loaded over HTTPS in the future also."
+msgstr ""
+
+msgid "items selected"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Data could not be retrieved - Try again"
+msgstr ""
+
+msgid "Email could not be retrieved - Try again"
+msgstr ""
+
+msgid "View email"
+msgstr ""
+
+msgid "Show email"
+msgstr ""
+
+msgid "(Tip: You can click outside the popup to close it)"
+msgstr ""
+
+msgid "Show un-secure version"
+msgstr ""
+
+msgid "Show secure version"
+msgstr ""
+
+msgid "Email content is cleaned up for security reasons - Click on button to show full unchanged email"
+msgstr ""
+
+msgid "If the Email contains dangerous content, it can compromise your site security. So only open the unchanged version if you are absolutely sure that email content is not malicious."
+msgstr ""
+
+msgid "Showing the email content as it was sent, without any modification to content or style."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Get the PRO version right now, to unlock all the functionality in Unified plugin and remove all the limitations in free version."
+msgstr ""
+
+msgid "Get the PRO version"
+msgstr ""
+
+msgid "Authentication was no longer valid - Reload page"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "No items found"
+msgstr ""
+
+msgid "Upgrade to Unified PRO version to unlock more data"
+msgstr ""
+
+msgid "Free version is limited to only showing the last results. Get the PRO version right now, to unlock all the functionality"
+msgstr ""
+
+msgid "See the email sent from this site."
+msgstr ""
+
+msgid "Insert your license key for your PRO version, so you can use the full functionality of Unified."
+msgstr ""
+
+msgid "Enter your license key"
+msgstr ""
+
+msgid "Your license is active and valid"
+msgstr ""
+
+msgid "Your license is not valid"
+msgstr ""
+
+msgid "Your license key can be found on"
+msgstr ""
+
+msgid "on My Account after login in with your credentials."
+msgstr ""
+
+msgid "The license key will be validated against license server and will be revalidated every day automatically."
+msgstr ""
+
+msgid "Currently used license key"
+msgstr ""
+
+msgid "Set as constant in code"
+msgstr ""
+
+msgid "No license key"
+msgstr ""
+
+msgid "License is in a unknown state - We are retrying to contact license server to determine state - Attempt {0} of {1}"
+msgstr ""
+
+msgid "Make sure it is possible to connect out of this webserver to license server at https://daev.tech."
+msgstr ""
+
+msgid "License is valid and active. Last checked {0} hours ago."
+msgstr ""
+
+msgid "License is NOT valid. Last checked {0} hours ago. Make sure you have an active subscription and then key is correct. Contact support if you have questions."
+msgstr ""
+
+msgid "To recheck your current key, just save the key again and it will be re-validated."
+msgstr ""
+
+msgid "Set license key"
+msgstr ""
+
+msgid "Your license key is hardcoded in code, as a PHP constant. It is called UNIFIED_LICENSE_KEY and it overrides all others."
+msgstr ""
+
+msgid "To change it, you need to find the constant in code and change it there."
+msgstr ""
+
+msgid "If you remove the constant from code, you can change the license key right here after."
+msgstr ""
+
+msgid "If you want to re-validate the license key defined in constant, press the button below:"
+msgstr ""
+
+msgid "Re-check license key"
+msgstr ""
+
+msgid "New license key"
+msgstr ""
+
+msgid "By saving your new license key, you agree to the terms of use, outlined in section 'TERMS OF USE' on this page."
+msgstr ""
+
+msgid "Save license key and validate"
+msgstr ""
+
+msgid "Terms of use"
+msgstr ""
+
+msgid "By inserting your license key and saving it, you accept that we use this information to contact Unified license server."
+msgstr ""
+
+msgid "After successful validation, the key will be revalidated every day to make sure it is still valid."
+msgstr ""
+
+msgid "On the server, the key will be checked and request is logged, along with your public IP address and site url."
+msgstr ""
+
+msgid "We dont save or send other information to the license server."
+msgstr ""

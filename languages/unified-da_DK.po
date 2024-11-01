@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Unified 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plugin\n"
+"Last-Translator: \n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-20T16:36:53+02:00\n"
+"PO-Revision-Date: 2023-06-20 20:35+0000\n"
+"Language: da_DK\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: unified\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+
+#: src/UnifiedPlugin.php:109
+#: dist/unified.js:312
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#. Author of the plugin
+msgid "Daev.tech"
+msgstr ""
+
+#: src/Utilities/Configuration.php:62
+msgid "Email SMTP host name is not valid or could not look up the DNS IP address for it"
+msgstr ""
+
+#: src/Utilities/Configuration.php:70
+msgid "Email SMTP port needs to a number between 1 and 65535"
+msgstr ""
+
+#: src/Utilities/Configuration.php:94
+msgid "Email SMTP secure can only be tls, ssl or empty"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://daev.tech"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://unified.daev.tech"
+msgstr ""
+
+#. translators: %s WordPress Must-use plugin dir
+#: src/Utilities/MUPlugin/MUPluginAdmin.php:97
+msgid "MU plugin %s could not be copied to MU plugin dir - It is probably a permission issue"
+msgstr ""
+
+#. translators: %s Plugin path
+#: src/Utilities/MUPlugin/MUPluginAdmin.php:119
+msgid "MU plugin %s could not be deleted - It is probably a permission issue"
+msgstr ""
+
+#. translators: %s WordPress Must-use plugin dir
+#: src/Utilities/MUPlugin/MUPluginAdmin.php:66
+msgid "MU plugin dir %s could not be created - It is probably a permission issue"
+msgstr ""
+
+#. translators: %s WordPress Must-use plugin dir
+#: src/Utilities/MUPlugin/MUPluginAdmin.php:77
+msgid "MU plugin dir %s is not writable - It is probably a permission issue"
+msgstr ""
+
+#: src/Pages/ConfigurationPage.php:53
+msgid "Nonce was not correct, so configuration could not be updated - Refresh page and try again"
+msgstr ""
+
+#. Description of the plugin
+msgid "SMTP setup, page cache, WordPress clean up, security http headers, focused on high performance, no bloat and low memory usage."
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Unified"
+msgstr ""
